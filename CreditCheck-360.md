@@ -5,8 +5,8 @@
 ## Tech Stack Used:
 React + Vite, JavaScript, CSS, plus the npm package validator
 
-## One-Line Summary:
-A responsive credit-card validation UI tool built with React, giving real-time card number & data validation with brand detection, live preview, and CVV handling.
+## Summary:
+CreditCheck-360 is a React + Vite based credit-card validator tool: the user enters card details and gets instant validation, card-brand detection, and a live card preview with CVV flip animation. I used the validator npm library for reliable validation logic, React for UI & state handling, and custom CSS for styling. Everything runs client-side — no backend — and provides a smooth, responsive, accessible user experience.
 
 ## Key Features:
 - Credit-card number validation (via validator library)
@@ -25,10 +25,16 @@ A responsive credit-card validation UI tool built with React, giving real-time c
 - Client-side validation & preview → instant feedback and UI responsiveness without backend dependencies.
 
 ## Challenges & Solutions:
+
 - **Challenge**: Validating various card formats (different brands, CVV length, expiry, user mistakes)
+
   **Solution**: Used validator package + custom logic + real-time feedback to ensure correctness.
+  
 - **Challenge**: Building card preview & animated flip with correct UI and responsiveness
+
   **Solution**: Custom React components + CSS + state handling + careful UI layout.
+  
 - **Challenge** : Keeping UI light and dependency-free while maintaining good UX
+
   **Solution**: Manual CSS styling + minimal dependencies (only validator + React + Vite).
   
