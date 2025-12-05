@@ -2,6 +2,9 @@
 
 A blog application built with React + Firebase where users can navigate between pages and manage blog content.
 
+🌐 **Live Demo:**  👉 [View App](https://blog-app-snowy-eta.vercel.app/) 
+
+
 ## 🧩 Tech Stack Used
 
 - React 18
@@ -26,11 +29,17 @@ A blog application built with React + Firebase where users can navigate between 
 - Custom CSS → Full styling control, no dependency on frameworks
 
 ## 🛠️ Challenges
+
 Challenge 1: Handling auth + route protection
+
 Solution: Used Firebase Auth state listener + React Router <ProtectedRoute> wrapper
+
 Challenge 2: Managing realtime data from Firestore
+
 Solution: Used Firestore onSnapshot() to auto-update UI without refresh
+
 Challenge 3: App structure became messy
+
 Solution: Split code into reusable components & organized pages folder
 
 
