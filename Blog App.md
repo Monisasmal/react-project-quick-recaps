@@ -9,3 +9,13 @@ A blog application built with React + Firebase where users can navigate between 
 - Firebase → For backend services (Auth, Firestore, or Storage)
 - Vite → Build tool & dev server
 - JavaScript (ES6+), React Hooks, Custom CSS
+
+## 🔧 Key Features
+
+- User authentication (Firebase Auth)
+- Protected routes for authenticated users (React Router)
+- Real-time updates (Firestore live sync)
+- Custom CSS styling
+- Responsive layout
+
+
