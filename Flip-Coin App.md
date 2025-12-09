@@ -4,6 +4,11 @@ Flip-Coin is a minimal React + Vite app that lets the user click a button to fli
 
 🌐 **Live Demo:**  👉 [View App](https://flip-coin-react-manaswini-sasmals-projects.vercel.app/) 
 
+## 🧩 Tech Stack Used
+- React (latest)
+- Vite — build tool / development server
+- JavaScript (ES6+) + React Hooks / functional components
+- Plain CSS / custom styling
 
 ## 🛠️ Key Features
 - Flip coin functionality — user triggers a flip action (e.g., button click)
