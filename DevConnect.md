@@ -15,3 +15,12 @@ A React app that allows users to register/login, add & view projects, and manage
 - LocalStorage for data persistence  
 - Reusable UI components
 
+**Your Contribution:**  
+Built app with React + Vite, implemented routing & protected routes, created components, handled LocalStorage logic, and styled UI manually.
+
+**Why these technologies:**  
+React + Router for SPA navigation, Vite for fast builds, LocalStorage for simple persistence, custom CSS for lightweight styling.
+
+**Challenges & Solutions:**  
+Handled auth & persistence without backend via LocalStorage; used protected routes for secure navigation.
+
