@@ -1,5 +1,7 @@
 # Directory App 
 
+## 👉 **Live Demo:** [Directory App](https://directory-app-blush.vercel.app/)
+
 ## **Tech Stack Used**
 - React  
 - Vite  
