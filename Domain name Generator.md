@@ -19,4 +19,27 @@
 - Clean and minimal UI built with React  
 - Responsive design for all devices  
 - Re-renders dynamically on every click  
-- Lightweight project with no external UI libraries  
+- Lightweight project with no external UI libraries
+
+----
+
+## **Your Contributions**
+- Built the UI and logic using React functional components  
+- Implemented domain name generation logic (random prefixes, suffixes, TLDs)  
+- Managed state using React Hooks (`useState`)  
+- Styled the application using custom CSS  
+- Ensured responsive and clean layout  
+- Structured the project using Vite for fast builds
+
+---  
+
+## **Challenges & Solutions**
+- **Generating unique combinations:**  
+  Solved by combining multiple arrays (prefix, keyword, extension) with randomness  
+- **Creating dynamic UI updates:**  
+  Used `useState` to re-render results instantly  
+- **Making design responsive:**  
+  Applied CSS flexbox and media queries  
+
+
+
