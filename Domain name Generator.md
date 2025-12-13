@@ -1,6 +1,8 @@
 # Domain Name Generator
 - A simple and interactive React app that generates random, creative domain names with a single click.
 
+👉 **Live Demo:** [Domain Name Generator](https://domain-name-generator-react-manaswini-sasmals-projects.vercel.app/)
+
 ---
 
 ## **Tech Stack Used**
