@@ -1,6 +1,9 @@
 # Fitness Club React App
 A modern fitness club web application built with React that allows users to explore exercises, view details, and navigate through workout categories using a clean and interactive UI
 
+
+## 🌐 [Live Demo](https://fitness-club-raect-manaswini-sasmals-projects.vercel.app/)
+
 ## **Tech Stack Used**
 - React (v18)
 - React Router DOM
