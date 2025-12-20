@@ -6,6 +6,7 @@ As the user scrolls down, new images are fetched automatically — creating a sm
 ----
 
 👉 **Live Demo:** [Infinite Scrolling App](https://infinite-scrolling-react-js.vercel.app/)
+
 👉 **Git Repo:** [Infinite Scrolling App](https://github.com/Monisasmal/InfiniteScrollingReactJS)
 
 ----
