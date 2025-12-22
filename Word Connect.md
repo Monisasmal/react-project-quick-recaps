@@ -25,3 +25,30 @@ The app is responsive, interactive, and built with clean, reusable components.
 - Multi-page navigation using React Router
 - Clean and engaging game UI
 - Responsive design for different screen sizes
+
+---
+
+## **Your Contributions**
+- Built the complete game UI using React functional components
+- Implemented word selection and validation logic
+- Managed game state using React Hooks (`useState`, `useEffect`)
+- Integrated charts using Chart.js to visualize user progress
+- Implemented routing for game screens (play, results, stats, etc.)
+- Designed responsive and user-friendly layout with custom CSS
+- Structured the project using Vite for fast builds
+
+---
+
+## **Challenges & Solutions**
+- **Managing complex game state:**  
+  Solved using structured state objects and React Hooks
+- **Validating words in real time:**  
+  Implemented efficient string/array logic during user selection
+- **Visualizing progress clearly:**  
+  Used Chart.js with react-chartjs-2 for clean data visualization
+- **Maintaining smooth UX:**  
+  Minimized unnecessary re-renders and optimized state updates
+  
+---
+
+
