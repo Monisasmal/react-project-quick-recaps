@@ -51,4 +51,10 @@ The app is responsive, interactive, and built with clean, reusable components.
   
 ---
 
-
+## **How Game Interaction Works**
+- Letters are rendered dynamically in a grid
+- User selects letters by clicking or dragging
+- Selected letters form a word string
+- The word is validated against game logic or dataset
+- Score and progress update instantly
+- Performance data is displayed using charts
