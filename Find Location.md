@@ -1,8 +1,10 @@
 # Find Location App
 
 Find Location is a React application that integrates Leaflet maps using React Leaflet.  
-I implemented interactive maps with markers and zoom controls, managed map rendering using React Hooks, and styled the UI with custom CSS.  
+I implemented interactive maps with markers and zoom controls, managed map rendering using React Hooks, and styled the UI with custom CSS. 
 The project demonstrates my ability to integrate third-party libraries and work with geolocation-based UIs.
+
+🌐 **Live Demo:**  👉 [View App](https://find-location-react-manaswini-sasmals-projects.vercel.app/) 
 
 ## **Tech Stack Used**
 - React (v19)
