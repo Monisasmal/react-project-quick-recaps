@@ -26,6 +26,14 @@
 
 ---
 
+## 🧠 Data Handling Logic
+- Uses conditional rendering to avoid undefined values
+- Fallback logic (`|| 'N/A'`) prevents UI breakage
+- Assumes API data is stored in React state before rendering
+- Keeps UI stable even if some fields are missing
+
+---
+
 ## 💡 Learning Outcomes
 - Working with third-party APIs in React
 - Integrating maps using Leaflet with React
