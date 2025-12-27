@@ -20,3 +20,39 @@ I used `react-markdown` and `remark-gfm` to render GitHub-flavored Markdown inst
 - **Linting:** ESLint
 
 ---
+
+## 🚀 Core Features
+- Live Markdown editor with instant preview
+- GitHub Flavored Markdown support:
+  - Headings
+  - Lists
+  - Tables
+  - Code blocks
+  - Bold & Italic text
+  - Links
+- Split-screen layout for editor and preview
+- Responsive design for different screen sizes
+
+## 🧠 How It Works
+- User types Markdown content in a textarea
+- Markdown text is stored in React state
+- `react-markdown` parses and renders the content
+- `remark-gfm` enables advanced Markdown syntax
+- UI updates instantly on every keystroke
+
+---
+
+## 🧱 UI Structure
+- Left panel: Markdown input editor
+- Right panel: Rendered Markdown preview
+- Icons used for better visual clarity
+- Minimal layout focused on readability
+
+---
+
+## 💡 Learning Outcomes
+- Working with Markdown rendering in React
+- Using third-party libraries effectively
+- Handling real-time user input
+- Managing controlled components
+- Implementing clean UI for productivity tools
