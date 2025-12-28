@@ -26,4 +26,14 @@ I used React state to control progress values and styled-components for dynamic 
 - Makes the component modular and reusable
 - Enables dynamic styling via props
 
+---
+
+## 💡 Learning Outcomes
+- Implementing reusable UI components
+- Managing UI state in React
+- Using styled-components effectively
+- Creating dynamic and interactive UI elements
+
+
+
 
