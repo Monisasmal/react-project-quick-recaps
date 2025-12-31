@@ -51,3 +51,8 @@ with `downloadjs` to allow users to download the QR code as an image, all handle
 - Building utility-based React applications
 
 
+
+
+
+
+
