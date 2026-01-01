@@ -28,3 +28,23 @@ and integrated EmailJS to handle contact form submissions without a backend
 - **Linting:** ESLint
 
 ---
+
+## 🚀 Core Features
+- Responsive and mobile-friendly layout
+- Smooth scrolling between sections
+- Dynamic typewriter animation for roles/skills
+- Project showcase with live demo links
+- Functional contact form with email support
+- Clean UI with modern design principles
+
+---
+
+## 🧠 How It Works
+- React components structured section-wise (Home, About, Skills, Projects, Contact)
+- `react-scroll` enables smooth navigation within the page
+- `typewriter-effect` animates role descriptions dynamically
+- EmailJS sends contact form messages directly without backend
+- MUI and Emotion handle UI components and styling
+
+---
+
