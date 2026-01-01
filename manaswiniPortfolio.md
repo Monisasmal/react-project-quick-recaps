@@ -36,7 +36,8 @@ and integrated EmailJS to handle contact form submissions without a backend
 - Project showcase with live demo links
 - Functional contact form with email support
 - Clean UI with modern design principles
-
+- SEO optimized using proper meta tags and semantic structure
+- Resume download option available for easy access
 ---
 
 ## 🧠 How It Works
@@ -45,7 +46,9 @@ and integrated EmailJS to handle contact form submissions without a backend
 - `typewriter-effect` animates role descriptions dynamically
 - EmailJS sends contact form messages directly without backend
 - MUI and Emotion handle UI components and styling
-
+- SEO optimization implemented using proper page titles, meta descriptions, and semantic HTML
+- Resume is stored as a static asset and downloadable via a direct link or button
+  
 ---
 
 ## 📩 Contact Form Logic (EmailJS)
