@@ -22,3 +22,25 @@ Built using **React 18** and **Create React App**.
 - 🚀 Deployed with GitHub Pages
 
 ---
+
+## 📦 Technologies Used
+
+- **React.js (v18)**
+- **JavaScript**
+- **HTML & CSS**
+- **Create React App**
+- **GitHub Pages** for deployment
+
+---
+
+## 🧠 What You’ll Learn
+
+This project helps you practice:
+
+- React component structure
+- Event handling with onClick
+- Dynamic state updates using useState
+- Array filtering and conditional rendering
+- Deploying React apps with GitHub Pages
+
+---
