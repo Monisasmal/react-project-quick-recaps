@@ -22,3 +22,27 @@ This project allows users to **add, edit, delete, and persist tasks** using **Lo
 - 📱 Responsive and clean user interface
 
 ---
+
+## 🛠️ Technologies Used
+
+- **React.js (Functional Components)**
+- **React Hooks**
+  - `useState`
+  - `useEffect`
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+- **Font Awesome Icons**
+- **Local Storage API**
+
+---
+
+## 📦 How It Works
+
+- Tasks are stored as objects with `id` and `name`
+- `useState` manages input data and task list
+- `useEffect` syncs task data with **localStorage**
+- Clicking the **edit icon** enables update mode
+- Clicking **remove all** clears the entire list
+
+---
