@@ -3,6 +3,8 @@
 A simple **Sign Up / Registration form** built using **React.js** to demonstrate form handling, controlled components, and state management with React Hooks.  
 The application collects user details and displays the submitted data in a table format.
 
+---
+
 🔗 **Live Demo:**  
 https://monisasmal.github.io/ReactSignUp/
 
@@ -31,3 +33,15 @@ https://monisasmal.github.io/ReactSignUp/
 - **Image Assets (Icons)**
 
 ---
+
+## 📦 How It Works
+
+- User input is managed using a single state object (`userRegi`)
+- `handleInput` dynamically updates form values using `name` attributes
+- On form submission:
+  - Prevents page reload
+  - Stores user details in an array
+  - Displays registered users in a table format
+- Form fields are reset after submission
+
+
