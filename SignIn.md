@@ -32,3 +32,17 @@ https://monisasmal.github.io/ReactLoginProject/
 - **CSS3**
 - **Image Assets (Icons)**
 
+---
+
+## 📦 How It Works
+
+- Uses controlled inputs for **email** and **password**
+- `useState` stores form input values
+- On form submission:
+  - Prevents page reload
+  - Validates input fields
+  - Stores submitted data in an array
+- Submitted entries are rendered dynamically below the form
+
+---
+
