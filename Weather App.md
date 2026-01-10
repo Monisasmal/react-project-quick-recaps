@@ -21,3 +21,25 @@ view real-time weather information such as temperature, weather condition, humid
 - ⚡ Fast and user-friendly UI
 
 ---
+
+## 🛠️ Technologies Used
+
+- **React.js**
+- **React Hooks**
+  - `useState`
+  - `useEffect`
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+- **Weather API** (e.g., OpenWeatherMap)
+
+---
+
+## 📦 How It Works
+
+- User enters a city name
+- The app sends a request to the weather API
+- Weather data is fetched and stored in state
+- UI updates dynamically based on API response
+- Handles invalid city names or empty input gracefully
+
