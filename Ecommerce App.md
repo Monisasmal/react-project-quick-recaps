@@ -14,7 +14,6 @@ This project demonstrates real-world frontend concepts such as routing, authenti
 * 🔍 Product details view
 * 🧭 Client-side routing using **React Router v6**
 * 🔐 User authentication using **Auth0**
-
   * Secure Login & Logout
 * 📦 API integration using **Axios**
 * 🎨 Styling with **Styled-Components**
@@ -34,39 +33,6 @@ This project demonstrates real-world frontend concepts such as routing, authenti
 * **React Icons**
 * **JavaScript (ES6+)**
 * **HTML5 & CSS3**
-
----
-
-## 📦 Dependencies
-
-* react
-* react-dom
-* react-router-dom
-* axios
-* @auth0/auth0-react
-* styled-components
-* react-icons
-* react-scripts
-
----
-
-## 📁 Project Structure
-
-```
-reactecomm/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── context/
-│   ├── styles/
-│   ├── App.js
-│   ├── index.js
-│   └── utils/
-├── package.json
-└── README.md
-```
 
 ---
 
@@ -93,9 +59,9 @@ Routing is implemented using **React Router DOM v6**, including:
 * Authentication Pages
 * Fallback / Error Routes
 
----
 
 
 
 
-⭐ If you like this project, don’t forget to **star the repository**!
+
+
