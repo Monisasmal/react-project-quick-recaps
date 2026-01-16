@@ -47,3 +47,17 @@ Simple and independent state management
 Handling side effects when state changes
 
 ---
+
+### 🔹 3. Counter using useReducer
+- Uses reducer function with `dispatch`
+- Actions like:
+  - `INCREMENT`
+  - `DECREMENT`
+  - `RESET`
+- Ensures predictable state updates
+- Prevents decrement below zero at reducer level
+
+**Best for:**  
+Complex or scalable state logic
+
+
