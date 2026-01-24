@@ -28,3 +28,25 @@ This project demonstrates:
 - 📱 Responsive design
 - ⚡ Fast build and development with Vite
 - 🌐 Deployed on Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React.js (v18)**
+- **Material UI (MUI)**
+- **Emotion (CSS-in-JS)**
+- **Styled-Components**
+- **JavaScript (ES6+)**
+
+### Backend / Services
+- **Firebase**
+  - Firebase Storage
+  - Firebase Configuration
+
+### Tooling
+- **Vite**
+- **ESLint**
+
+---
