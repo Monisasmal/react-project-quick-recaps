@@ -50,3 +50,25 @@ This project demonstrates:
 - **ESLint**
 
 ---
+
+🔥 Firebase Integration (Interview Important)
+- Firebase is used for cloud file storage
+- Uploaded files are stored securely in Firebase Storage
+- Firebase configuration is separated for clean architecture
+- React components interact with Firebase using SDK methods
+
+----
+
+**🙋‍♀️ Author**
+
+## Manaswini Sasmal
+
+📲 - 6370094643
+
+👩‍💻 Frontend Developer | React Enthusiast
+
+🔗 Portfolio - https://manaswini-portfolio.vercel.app/
+
+📧 manaswinisasmal5597@gmail.com
+
+🔗 LinkedIn - https://www.linkedin.com/in/manaswini-sasmal-b77a21162/
