@@ -28,6 +28,7 @@ This React Quiz App demonstrates:
 - 🔁 Restart quiz functionality
 - ⚡ Fast and responsive UI
 - 🌐 Hosted on GitHub Pages
+- Timer-based questions (auto move on timeout)
 
 ---
 
@@ -54,3 +55,4 @@ This React Quiz App demonstrates:
 - Sound effects play on interaction
 - Final score is shown at the end
 - Users can restart the quiz
+- Implementing a **countdown timer per question**
