@@ -30,3 +30,27 @@ This React Quiz App demonstrates:
 - 🌐 Hosted on GitHub Pages
 
 ---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React.js (v18)**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+
+### Libraries & Tools
+- **use-sound** (for sound effects)
+- **React Testing Library**
+- **gh-pages** (for deployment)
+
+---
+
+▶️ How the App Works (Interview Friendly)
+
+- The app loads quiz questions from a predefined data file
+- Users select an answer for each question
+- The app checks the selected answer and updates the score
+- Sound effects play on interaction
+- Final score is shown at the end
+- Users can restart the quiz
