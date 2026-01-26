@@ -32,3 +32,32 @@ This project highlights:
 - 🌐 Hosted on GitHub Pages
 
 ---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React.js (v18)**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+
+### Libraries & Tools
+- **react-router-dom** – client-side routing
+- **react-icons** – icons
+- **gh-pages** – deployment
+
+---
+
+⚙️ How the App Works (Interview Ready)
+
+- The app loads with a home page
+- Navigation is handled using React Router
+- Each page is rendered without page refresh
+- Components are reusable and modular
+- Icons enhance the UI using React Icons
+- App is built and deployed using GitHub Pages
+
+The project is deployed using GitHub Pages.
+- npm run build
+- npm run deploy
+
