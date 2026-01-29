@@ -35,3 +35,34 @@ This is a **strong portfolio project** suitable for frontend interviews.
 - 📱 Fully responsive layout
 
 ---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React.js (v18)**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+
+### Libraries Used
+- **framer-motion** – animations
+- **react-accessible-accordion** – accessible accordion UI
+- **react-countup** – animated numbers
+- **swiper** – sliders & carousels
+- **react-icons** – icons
+- **react-outside-click-handler** – detect outside clicks
+- **react-scripts** – CRA setup
+
+---
+
+⚙️ How the App Works (Interview Ready)
+
+- The homepage displays real estate property information
+- Animated counters highlight business metrics
+- Accordions show expandable content (values / FAQs)
+- Swiper sliders display property cards
+- Framer Motion provides smooth entrance animations
+- Components are reusable and well-structured
+- App is deployed using Vercel
+
+
