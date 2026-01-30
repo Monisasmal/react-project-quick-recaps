@@ -36,3 +36,27 @@ It demonstrates:
 
 ---
 
+## 🛠️ Tech Stack
+
+### Frontend
+- **React.js (v19)**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+
+### Libraries & Tools
+- **Recharts** – for displaying game statistics
+- **Vite** – fast development & build tool
+- **ESLint** – code quality
+
+---
+
+### 🏆 Player Winning Conditions
+
+| Player Choice | Computer Choice | Why Player Wins |
+|--------------|----------------|----------------|
+| Rock         | Scissors       | Rock breaks Scissors |
+| Paper        | Rock           | Paper covers Rock |
+| Scissors    | Paper          | Scissors cuts Paper |
+
+
