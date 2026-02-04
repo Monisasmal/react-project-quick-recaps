@@ -45,6 +45,7 @@ it is a demonstration of solving real-world configuration and data integration c
 * Backend: Node.js, Express.js
 * Database: MongoDB Atlas
 * Auth: Auth0 (Secure Identity Management)
+* Formspree for contact page
 
 ---
 
@@ -75,11 +76,22 @@ Routing is implemented using **React Router DOM v6**, including:
 
 ## Challenges & Solutions
 
+1. Auth0 Configuration & Mismatched URIs
+
 - Problem: Encountered "Oops! Something went wrong" errors during login after deployment.
 - Diagnosis: Discovered that Auth0 is extremely strict with URI formatting; a single extra comma or missing URL in the "Allowed Callback URLs" prevents authentication.
 - Solution: Meticulously synced the Vercel production link and localhost:3000 in the Auth0 dashboard, ensuring no trailing commas remained in the configuration.
 
-1. Auth0 Configuration & Mismatched URIs
+2. Lessons Learned
+- Environmental Parity: Learned how to manage different settings for Local vs. Production environments.
+- Persistence: Developed a systematic approach to debugging third-party API errors by reading logs and documentation carefully.
+
+3. The 60-Second "Cold Start" (Render & MongoDB)
+- The Issue: After being inactive, the website would load, but the products wouldn't appear for about 60 seconds.
+- The Diagnosis: I realized this is due to using Render's Free Tier for the backend. When the server is not in use, Render "spins it down" to save resources. When a new user visits, the server needs about a minute to "wake up" and re-establish a connection to MongoDB Atlas.
+- The Solution: I documented this in the README to manage user expectations. In a professional environment, this would be solved by upgrading to a "Paid" instance for 100% uptime.
+
+
 
 
 
