@@ -91,6 +91,11 @@ Routing is implemented using **React Router DOM v6**, including:
 - The Diagnosis: I realized this is due to using Render's Free Tier for the backend. When the server is not in use, Render "spins it down" to save resources. When a new user visits, the server needs about a minute to "wake up" and re-establish a connection to MongoDB Atlas.
 - The Solution: I documented this in the README to manage user expectations. In a professional environment, this would be solved by upgrading to a "Paid" instance for 100% uptime.
 
+4. Vercel Deployment: "Treating Warnings as Errors"
+- The Issue: My deployment failed with the error: Treating warnings as errors because process.env.CI = true.
+- The Diagnosis: By default, many CI/CD platforms (like Vercel and GitHub Actions) treat simple linting warnings (like an unused variable) as fatal errors, stopping the build.
+- The Solution: I solved this by modifying the Build Command in my Vercel settings. I changed npm run build to CI=false npm run build. This allowed the project to deploy successfully while I worked on cleaning up the warnings in the code.
+
 
 
 
