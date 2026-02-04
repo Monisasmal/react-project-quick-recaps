@@ -4,24 +4,31 @@ A robust MERN-stack e-commerce application featuring dynamic product management,
 This project is not just a storefront; 
 it is a demonstration of solving real-world configuration and data integration challenges.
 
+----
+
 🔗 **Live Demo:**
-[Production Site](https://react-ecommerce-project-manaswini-sasmals-projects.vercel.app/)
-Backend API: Hosted on Render
+- [Production Site](https://react-ecommerce-project-manaswini-sasmals-projects.vercel.app/)
+- Backend API: Hosted on Render
 
 ---
 
 ## 🚀 Features
 
-* 🛍️ Product listing with dynamic data
-* 🔍 Product details view
-* 🧭 Client-side routing using **React Router v6**
-* 🔐 User authentication using **Auth0**
-  * Secure Login & Logout
-* 📦 API integration using **Axios**
-* 🎨 Styling with **Styled-Components**
-* ⚡ Fast and responsive UI
-* 📱 Mobile-friendly design
-* ☁️ Deployed on **Vercel**
+**Product Gallery**  
+  Browse items with images, names, prices and quick “Add to Cart” buttons.
+
+- **Search & Filter**  
+  Find products by name or category.
+
+- **Shopping Cart**  
+  Add, update, or remove items. Cart state persists across sessions.
+
+- **Checkout Flow**  
+  Review order, enter shipping details, and simulate payment.
+
+- Secure Checkout: Protected routes powered by Auth0 to ensure user data privacy.
+- Dynamic Data: Products are fetched in real-time from a MongoDB collection.
+  
 
 ---
 
@@ -29,12 +36,15 @@ Backend API: Hosted on Render
 
 * **React.js (v18)**
 * **React Router DOM**
-* **Auth0 Authentication**
 * **Axios**
 * **Styled-Components**
 * **React Icons**
 * **JavaScript (ES6+)**
 * **HTML5 & CSS3**
+* Frontend: React.js, Styled Components, Context API
+* Backend: Node.js, Express.js
+* Database: MongoDB Atlas
+* Auth: Auth0 (Secure Identity Management)
 
 ---
 
@@ -60,6 +70,16 @@ Routing is implemented using **React Router DOM v6**, including:
 * Product Details Page
 * Authentication Pages
 * Fallback / Error Routes
+
+----
+
+## Challenges & Solutions
+
+- Problem: Encountered "Oops! Something went wrong" errors during login after deployment.
+- Diagnosis: Discovered that Auth0 is extremely strict with URI formatting; a single extra comma or missing URL in the "Allowed Callback URLs" prevents authentication.
+- Solution: Meticulously synced the Vercel production link and localhost:3000 in the Auth0 dashboard, ensuring no trailing commas remained in the configuration.
+
+1. Auth0 Configuration & Mismatched URIs
 
 
 
