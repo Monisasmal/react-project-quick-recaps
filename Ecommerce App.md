@@ -1,10 +1,12 @@
-# React E-Commerce Application 🛒
+🛒 SasmalStore | Full-Stack E-Commerce Platform
 
-A modern and responsive **E-Commerce web application** built using **React.js**.
-This project demonstrates real-world frontend concepts such as routing, authentication, API integration, and scalable UI styling.
+A robust MERN-stack e-commerce application featuring dynamic product management, advanced filtering, and secure user authentication.
+This project is not just a storefront; 
+it is a demonstration of solving real-world configuration and data integration challenges.
 
 🔗 **Live Demo:**
-[See Demo 👉](https://react-ecommerce-project-manaswini-sasmals-projects.vercel.app/)
+[Production Site](https://react-ecommerce-project-manaswini-sasmals-projects.vercel.app/)
+Backend API: Hosted on Render
 
 ---
 
