@@ -22,3 +22,26 @@ This project demonstrates React fundamentals including state management, timers,
 - 📊 Score history display
 - 🧠 Controlled input typing area
 - 👤 Simple user welcome/logout flow
+
+----
+
+## 🧠 How It Works
+
+1. User selects a difficulty level
+2. Click Start to begin the timer
+3. User types the displayed text
+4. App tracks:
+  - Words per minute (WPM)
+  - Accuracy percentage
+  - Mistakes
+  - Remaining time
+5. Results are saved to score history
+
+---
+
+## 📊 Performance Metrics Explained
+**WPM (Words Per Minute)**
+- WPM = (Characters typed ÷ 5) ÷ Minutes
+**Accuracy**
+- Accuracy = (Correct characters ÷ Total typed) × 100
+----
