@@ -45,3 +45,37 @@ This project demonstrates React fundamentals including state management, timers,
 **Accuracy**
 - Accuracy = (Correct characters ÷ Total typed) × 100
 ----
+
+## 🛠 Tech Stack
+
+- React 19
+- Vite
+- JavaScript
+- CSS
+- ESLint
+
+---
+
+## 🎯 Learning Highlights
+
+- This project demonstrates:
+- React state management
+- Timer handling with effects
+- Controlled form inputs
+- Performance calculations
+- Conditional rendering
+- Component structuring
+- User interaction flow
+Perfect for practicing real-time UI logic and interview discussion.
+
+---
+
+📌 Future Improvements
+
+- Multiplayer typing challenge
+- Leaderboard system
+- Custom text generator
+- Dark/light themes
+- Persistent score storage
+
+---
