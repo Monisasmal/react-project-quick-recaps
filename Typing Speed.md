@@ -1,7 +1,9 @@
-# ⌨️ Typing Speed Test – React App
+# ⌨️ Typing Speed Tester — React App
 
-A modern **Typing Speed Test** application built with **React + Vite** that measures how fast and accurately a user 
-types within a given time. This project focuses on real-time input handling, timer logic, and React state management.
+A modern Typing Speed Tester built with React that measures typing performance in real time. 
+Users can start a timed typing session, select difficulty levels, and track WPM, accuracy, and mistakes — with score history saved for review.
+
+This project demonstrates React fundamentals including state management, timers, controlled inputs, and performance calculations.
 
 ---
 
@@ -9,7 +11,14 @@ types within a given time. This project focuses on real-time input handling, tim
 
 ---
 
-## 📌 Project Overview
+## ✨ Features
 
-This app allows users to practice typing and instantly see their performance metrics.
-It calculates typing speed based on characters or words typed within a time limit, helping users improve typing accuracy and speed.
+- ⏱ Countdown timer typing challenge
+- 🎯 Difficulty level selection
+- ⚡ Real-time WPM calculation
+- ✅ Accuracy tracking
+- ❌ Mistake counter
+- 🔁 Start / Reset functionality
+- 📊 Score history display
+- 🧠 Controlled input typing area
+- 👤 Simple user welcome/logout flow
