@@ -10,3 +10,36 @@ The dashboard is accessible **only after login**, ensuring basic authentication 
 ## 🌐 [Live Demo](https://employee-management-orpin-three.vercel.app/)
 
 ---
+
+### 🔐 Authentication
+
+* Login-based access control
+* Dashboard loads **only after successful login**
+* Logout functionality included
+
+---
+
+### 👥 Employee Management
+
+* Add new employee with:
+
+  * Name
+  * Gender
+  * Date of Birth
+  * State
+  * Profile Image
+  * Active / Inactive status
+* Edit existing employee details
+* Delete employee with confirmation prompt
+* Employee data stored persistently in **LocalStorage**
+
+---
+
+### 🔍 Search & Filters
+
+* Search employees by **name**
+* Filter employees by:
+
+  * Gender
+  * Active / Inactive status
+* Combined filtering supported
