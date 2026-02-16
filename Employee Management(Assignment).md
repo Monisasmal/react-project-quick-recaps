@@ -43,3 +43,50 @@ The dashboard is accessible **only after login**, ensuring basic authentication 
   * Gender
   * Active / Inactive status
 * Combined filtering supported
+
+---
+
+### 📊 Dashboard Summary
+
+* Displays **Total Employees**
+* Status indication (Active / Inactive)
+* No backend is used; all data is managed via LocalStorage.
+
+---
+
+### 🖨️ Print Functionality
+
+* Print employee list directly from the dashboard
+
+---
+
+## 🛠️ Tech Stack
+
+* **React.js**
+* **React Router**
+* **JavaScript (ES6+)**
+* **HTML5**
+* **CSS3**
+* **LocalStorage**
+
+---
+
+## ✅ Assignment Checklist Status
+
+✔ Login & protected dashboard
+
+✔ Employee CRUD operations
+
+✔ Image upload handling
+
+✔ Search & filtering
+
+✔ Active / Inactive toggle
+
+✔ LocalStorage persistence
+
+✔ Print functionality
+
+✔ Clean UI and code structure
+
+
